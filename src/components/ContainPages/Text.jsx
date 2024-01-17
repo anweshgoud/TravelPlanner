@@ -9,13 +9,13 @@ const Welcome = () => {
           marginLeft: '30%',
           fontFamily: 'Kaushan Script', 
           fontSize: '3.3rem',
-          WebkitTextFillColor:'#383333',
+          WebkitTextFillColor:'black',
         }}
       >
         Welcome to Travel Planner
       </h1>
       <div className="col-lg-6 mx-auto">
-        <p className="lead mb-4" style={{ marginLeft: '25%', fontFamily: 'Kaushan Script',WebkitTextFillColor:'#383333'}}>
+        <p className="lead mb-4" style={{ marginLeft: '25%', fontFamily: 'Kaushan Script',WebkitTextFillColor:'black'}}>
           Please Select the Continent from below
         </p>
       </div>

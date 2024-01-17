@@ -51,7 +51,7 @@ const EuropeCountry = createSlice({
           "Visit the Marc Chagall National Museum",
         ],
       },
-      // Add more cities in France
+      
     ],
     Switzerland: [
       {
@@ -72,7 +72,7 @@ const EuropeCountry = createSlice({
           "Take a scenic boat trip on Lake Lucerne",
         ],
       },
-      // Add more cities in Switzerland
+      
     ],
     Greece: [
       {
@@ -93,7 +93,7 @@ const EuropeCountry = createSlice({
           "Relax on the beautiful beaches of Perissa",
         ],
       },
-      // Add more cities in Greece
+      
     ],
     Norway: [
       {
@@ -114,7 +114,7 @@ const EuropeCountry = createSlice({
           "Visit the Edvard Grieg Museum in Troldhaugen",
         ],
       },
-      // Add more cities in Norway
+      
     ],
     Scotland: [
       {
@@ -135,7 +135,7 @@ const EuropeCountry = createSlice({
           "Stroll through the vibrant West End",
         ],
       },
-      // Add more cities in Scotland
+      
     ],
   },
   reducers: {

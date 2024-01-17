@@ -13,7 +13,7 @@ const AustraliaCountry = createSlice({
           "Relax at Bondi Beach",
         ],
       },
-      // Add more places in Sydney
+      
     ],
     Perth: [
       {
@@ -25,7 +25,7 @@ const AustraliaCountry = createSlice({
           "Take a stroll in Fremantle",
         ],
       },
-      // Add more places in Perth
+      
     ],
     Canberra: [
       {
@@ -37,7 +37,7 @@ const AustraliaCountry = createSlice({
           "Stroll through Lake Burley Griffin",
         ],
       },
-      // Add more places in Canberra
+      
     ],
     Tasmania: [
       {
@@ -49,7 +49,7 @@ const AustraliaCountry = createSlice({
           "Take a trip to Mount Wellington",
         ],
       },
-      // Add more places in Tasmania
+      
     ],
   },
   reducers: {

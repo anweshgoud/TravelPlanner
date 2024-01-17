@@ -152,11 +152,12 @@ body{
 
 .colorful{
   filter: grayscale(0%);
+  filter: saturate(150%) brightness(120%);
   transition: filter 0.3s ease-in-out;
 }
 
 .blackWhite{
-  filter: grayscale(100%);
+  filter: grayscale(90%);
   transition: filter 0.3s ease-in-out;
 }
 
@@ -166,4 +167,8 @@ body{
 
 .CountryImage:hover{
   transform: scale(1.06);
+}
+
+.Underline:hover{
+  text-decoration: underline;
 }

@@ -22,7 +22,7 @@ const SouthAmericaCountry = createSlice({
           "Explore the Municipal Market of São Paulo",
         ],
       },
-      // Add more cities in Brazil
+      
     ],
     Chile: [
       {
@@ -43,7 +43,7 @@ const SouthAmericaCountry = createSlice({
           "Take a boat tour of the Valparaiso Harbor",
         ],
       },
-      // Add more cities in Chile
+      
     ],
     Peru: [
       {
@@ -64,7 +64,7 @@ const SouthAmericaCountry = createSlice({
           "Explore the vibrant San Pedro Market",
         ],
       },
-      // Add more cities in Peru
+      
     ],
     Argentina: [
       {
@@ -85,7 +85,7 @@ const SouthAmericaCountry = createSlice({
           "Enjoy outdoor activities in the Aconcagua region",
         ],
       },
-      // Add more cities in Argentina
+      
     ],
   },
   reducers: {

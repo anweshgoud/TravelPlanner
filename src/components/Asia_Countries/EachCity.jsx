@@ -87,7 +87,7 @@ const Eachcity = ({ cities, continentKey, countryKey }) => {
           </div>
         </div>
 
-        <div className="hiji" style={{display:'flex',flexWrap:'wrap',marginTop:'0px'}}>
+        <div className="hiji" style={{display:'flex',flexWrap:'wrap',marginTop:'0px',justifyContent:'space-evenly'}}>
           {cities.map((item, index) => (
             <SingleCity key={index} citing={item} date1={date}></SingleCity>
           ))}

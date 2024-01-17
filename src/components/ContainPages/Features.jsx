@@ -25,11 +25,11 @@ const Features = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      // Increment the image index or loop back to the first image
+      
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imagesInfo.length);
-    }, 5000); // Change image every 5 seconds
+    }, 5000); 
 
-    return () => clearInterval(intervalId); // Cleanup the interval on component unmount
+    return () => clearInterval(intervalId); 
   }, [currentImageIndex, imagesInfo.length]);
 
   const { image, title, description } = imagesInfo[currentImageIndex];
@@ -89,7 +89,7 @@ const Features = () => {
               >
                 <defs>
                   <pattern
-                    id="image1" // Unique ID for the first image
+                    id="image1" 
                     x="0"
                     y="0"
                     width="1"
@@ -199,7 +199,7 @@ const Features = () => {
               >
                 <defs>
                   <pattern
-                    id="image3" // Unique ID for the third image
+                    id="image3" 
                     x="0"
                     y="0"
                     width="1"

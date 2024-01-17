@@ -22,7 +22,7 @@ const NorthAmericaCountry = createSlice({
           "Take a tour of the Getty Center",
         ],
       },
-      // Add more cities in the USA
+      
     ],
     Canada: [
       {
@@ -43,7 +43,7 @@ const NorthAmericaCountry = createSlice({
           "Explore the Capilano Suspension Bridge Park",
         ],
       },
-      // Add more cities in Canada
+      
     ],
     Mexico: [
       {
@@ -64,7 +64,7 @@ const NorthAmericaCountry = createSlice({
           "Take a boat tour to Isla Mujeres",
         ],
       },
-      // Add more cities in Mexico
+      
     ],
   },
   reducers: {

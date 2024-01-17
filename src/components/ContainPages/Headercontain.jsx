@@ -22,7 +22,6 @@ const HeaderContains = () => {
     }
   };
 
-  const styling = { textDecoration: 'underline' };
 
   return (
     <>
@@ -33,31 +32,31 @@ const HeaderContains = () => {
 
             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
               <li className="Underline">
-                <Link to="/continents" className="nav-link text-white" style={styling}>
+                <Link to="/continents" className="nav-link text-white Underline">
                   <FaHome className="bi d-block mx-auto mb-1" style={{ width: "24", height: "24", fontSize: '2rem' }} />
                   Home
                 </Link>
               </li>
               <li className="Underline">
-                <Link to="/dashboard" className="nav-link text-white" style={styling}>
+                <Link to="/dashboard" className="nav-link text-white Underline">
                   <FaRegClipboard className="bi d-block mx-auto mb-1" style={{ width: "30", height: "24", fontSize: '1.5rem' }} />
                   Dashboard
                 </Link>
               </li>
               <li className="Underline">
-                <Link to="/completed" className="nav-link text-white" style={styling}>
+                <Link to="/completed" className="nav-link text-white Underline">
                   <FaBox className="bi d-block mx-auto mb-1" style={{ width: "24", height: "24" }} />
                   Completed-trips
                 </Link>
               </li>
               <li className="Underline">
-                <Link to="/features" className="nav-link text-white" style={styling}>
+                <Link to="/features" className="nav-link text-white Underline">
                   <FaCog className="bi d-block mx-auto mb-1" style={{ width: "24", height: "24" }} />
                   Features
                 </Link>
               </li>
               <li className="Underline">
-                <Link to="/" className="nav-link text-white" onClick={handleSignout} style={styling}>
+                <Link to="/" className="nav-link text-white Underline" onClick={handleSignout}>
                   <FaSignOutAlt className="bi d-block mx-auto mb-1" style={{ width: "24", height: "24" }} />
                   Sign out
                 </Link>

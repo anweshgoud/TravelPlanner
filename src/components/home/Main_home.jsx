@@ -17,7 +17,6 @@ const Home = () => {
         <nav>
           <Link to="/"></Link>
         </nav>
-        {/* Define routes here if needed */}
         <Route path="/" element={<Main />} />
         <Route path="/login" element={<LoginMain />} />
         <Route path="/signup" element={<MainSign />} />

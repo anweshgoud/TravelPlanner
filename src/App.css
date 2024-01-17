@@ -1,0 +1,169 @@
+.bolding{
+  margin-left: -30%;
+
+}
+
+.SignupBox{
+  width:40%;
+  height:30%;
+  margin-top: 1%;
+
+}
+
+.form-floating{
+  margin-top: 10px;
+}
+
+.dialog{
+  background-image: url('travel_cover-1500x1000.jpeg');
+  background-size: cover;
+
+}
+
+.dialog2{
+  background-image: url('8d311461-e6ec-4e5a-9eab-6a117a43f9c1-woman-travelling-alone.jpg');
+  background-size: cover;
+}
+
+.posts{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.posts2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.drop{
+  padding: 10px;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(5px); 
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.image-overlay h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.image-overlay p {
+  font-size: 1.2em;
+}
+
+.Underline:hover{
+  text-decoration: underline;
+  text-decoration-color:white;
+}
+
+.EachCity{
+  border-radius: 72px;
+  background: #f7f3f3;
+  box-shadow:  14px 14px 28px #e6e2e2,
+               -14px -14px 28px #ffffff;
+}
+
+.coonono{
+  cursor: pointer;
+  transition: transform 0.6 cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.onon{
+  box-shadow:  14px 14px 28px #e6e2e2,
+             -14px -14px 28px #ffffff;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.HeaderClass{
+  background: linear-gradient(to bottom, #008080, #000000);
+}
+
+.FooterContent{
+  background: linear-gradient(to bottom, #008080, #000000);
+  height: '15%';
+}
+
+body{
+  background-image: url('BackgroundSimple.jpg');
+  background-size: cover;
+}
+.DashboardBorder{
+  border-radius: 61px;
+  box-shadow:  5px 5px 10px #302b2b,
+             -5px -5px 10px #403b3b;
+}
+
+
+.SignUpButton{
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.SignUpButton:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #6d74ab;
+}
+
+.SignUpButton:active {
+  transform: scale(0.9);
+}
+
+.colorful{
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.blackWhite{
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.CountryImage{
+  transition: transform 0.2s ease-in-out;
+}
+
+.CountryImage:hover{
+  transform: scale(1.06);
+}

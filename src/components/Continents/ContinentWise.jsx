@@ -23,6 +23,8 @@ const ContinentWise = ({ post, key1 }) => {
         style={{
           backgroundImage: `url(${ImageValue})`,
           backgroundSize: "cover",
+          backgroundPosition:'center',
+          objectFit: "cover",
         }}
         onMouseEnter={() => HandleHover(key1)}
         onMouseLeave={() => HandleNothover()}

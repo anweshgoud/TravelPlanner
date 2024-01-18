@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "project-3-travel",
+    "public": "Project-3-Travel",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -1,7 +1,7 @@
 const LoginBox = ({ children }) => {
     return (
       <div
-        className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5 dialog2"
+        className="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5 dialog2 LoginBox"
         tabindex="-1"
         role="dialog"
         id="modalSheet"

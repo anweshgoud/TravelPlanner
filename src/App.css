@@ -172,3 +172,7 @@ body{
 .Underline:hover{
   text-decoration: underline;
 }
+
+.LoginBox{
+  filter: grayscale(90%)
+}

@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth"; // Correct import f
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB78U5NVxwZXw_oA5F0CZksAit_6-CO-SY",
-  authDomain: "travel-planner-1cbb1.firebaseapp.com",
-  projectId: "travel-planner-1cbb1",
-  storageBucket: "travel-planner-1cbb1.appspot.com",
-  messagingSenderId: "342144417605",
-  appId: "1:342144417605:web:c8387e9a735f411b29c82c",
-  measurementId: "G-WD8NR6DHXW",
+  apiKey: "AIzaSyDsp50T6JM0HE1AkwfgLMjaqRMUUT8EoMY",
+  authDomain: "travelplanning-7c288.firebaseapp.com",
+  projectId: "travelplanning-7c288",
+  storageBucket: "travelplanning-7c288.appspot.com",
+  messagingSenderId: "753612863166",
+  appId: "1:753612863166:web:aa30ed7ca31c1f02f590ef",
+  measurementId: "G-20L4RRL0R6"
 };
 
 const app = initializeApp(firebaseConfig);

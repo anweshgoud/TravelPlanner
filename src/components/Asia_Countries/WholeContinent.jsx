@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const ContinentsCountries = ({ Continent, country, index }) => {
-  const Imageurl = country + '.jpg';
+  const Imageurl = require(`../images/${country}.jpg`).default;
 
   const searchString = `?continent=${encodeURIComponent(Continent)}&country=${encodeURIComponent(country)}`;
 
@@ -40,3 +40,4 @@ const ContinentsCountries = ({ Continent, country, index }) => {
 };
 
 export default ContinentsCountries;
+

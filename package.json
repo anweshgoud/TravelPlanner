@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "test": "your-test-command-here",  // Add a test script if applicable
+    "test": "your-test-command-here",  
     "preview": "vite preview"
   },
   "dependencies": {

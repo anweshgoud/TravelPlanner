@@ -15,15 +15,11 @@
 }
 
 .dialog{
-  background-image: url('../../travel_cover-1500x1000.jpeg');
+  background-image: url('../../dist/travel_cover-1500x1000.jpeg');
   background-size: cover;
 
 }
 
-.dialog2{
-  background-image: url('8d311461-e6ec-4e5a-9eab-6a117a43f9c1-woman-travelling-alone.jpg');
-  background-size: cover;
-}
 
 .posts{
   margin-top: 10px;

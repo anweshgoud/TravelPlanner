@@ -21,7 +21,7 @@ const ContinentWise = ({ post, key1 }) => {
           key1 === hoverimage ? "colorful" : "blackWhite"
         } card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg posts2`}
         style={{
-          backgroundImage: `url(${ImageValue})`,
+          backgroundImage: `url(./dist/${ImageValue})`,
           backgroundSize: "cover",
           backgroundPosition:'center',
           objectFit: "cover",

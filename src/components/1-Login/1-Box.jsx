@@ -8,7 +8,7 @@ const LoginBox = ({ children }) => {
       role="dialog"
       id="modalSheet"
       style={{ 
-        backgroundImage: 'url(LoginTravel.jpg)',
+        backgroundImage: 'url(./dist/LoginTravel.jpg)',
         backgroundSize: 'cover',
       }}
     >

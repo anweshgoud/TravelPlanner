@@ -35,7 +35,7 @@ const Features = () => {
   const { image, title, description } = imagesInfo[currentImageIndex];
 
   const imageStyle = {
-    backgroundImage: `url(${image})`,
+    backgroundImage: `url(./dist/${image})`,
   };
 
   return (
@@ -97,7 +97,7 @@ const Features = () => {
                     viewBox="0 0 100 100"
                   >
                     <image
-                      href="FeatureTravel1.jpg"
+                      href="./dist/FeatureTravel1.jpg"
                       x="0"
                       y="0"
                       width="100"
@@ -152,7 +152,7 @@ const Features = () => {
                     viewBox="0 0 100 100"
                   >
                     <image
-                      href="FeatureTravel2.jpg"
+                      href="./dist/FeatureTravel2.jpg"
                       x="0"
                       y="0"
                       width="100"
@@ -207,7 +207,7 @@ const Features = () => {
                     viewBox="0 0 100 100"
                   >
                     <image
-                      href="FeatureTravel3.jpg"
+                      href="./dist/FeatureTravel3.jpg"
                       x="0"
                       y="0"
                       width="100"

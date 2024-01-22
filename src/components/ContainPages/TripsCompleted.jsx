@@ -6,7 +6,7 @@ const TripsCompleted = ({ trips }) => {
         <div
           className="d-block mx-lg-auto img-fluid"
           style={{
-            backgroundImage: `url(${Imageurl})`,
+            backgroundImage: `url(./dist/${Imageurl})`,
             width: "300px",
             height: "300px",
             backgroundSize: "cover",

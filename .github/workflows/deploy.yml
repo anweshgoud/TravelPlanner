@@ -12,15 +12,15 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@latest
+        uses: actions/checkout@v2  # Replace with the specific version you want to use
 
       - name: Setup Node
-        uses: actions/setup-node@latest
+        uses: actions/setup-node@v2  # Replace with the specific version you want to use
         with:
           node-version: 16
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm install
 
       - name: Build project
         run: npm run build

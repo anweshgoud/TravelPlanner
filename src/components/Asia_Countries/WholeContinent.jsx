@@ -28,7 +28,7 @@ const ContinentsCountries = ({ Continent, country, index }) => {
             width: "80%",
             height: "300px",
             borderRadius: "21px 21px 21px 21px",
-            backgroundImage: `url(./dist/${Imageurl})`,
+            backgroundImage: `url(${Imageurl})`,
             marginBottom: "5px",
             backgroundSize: "cover",
             transition: "opacity 0.3s ease-in-out",

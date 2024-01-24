@@ -108,7 +108,7 @@
   height: '15%';
 }
 body {
-  background-image: url('../../dist/images/BackgroundSimple.jpg');
+  background-image: url('../../dist/BackgroundSimple.jpg');
   background-size: cover;
 }
 
